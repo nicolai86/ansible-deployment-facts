@@ -5,7 +5,13 @@ generate facts useful for deployments
 
 usage:
 
-    - action: deployment_facts
+    roles:
+      - { role: nicolai86.ansible-deployment-facts }
+
+or if you've setup your roles dependencies properly:
+
+    tasks:
+      - action: deployment_facts
 
 Now you have access to two variables inside your templates:
 
