@@ -5,11 +5,6 @@ generate facts useful for deployments
 
 usage:
 
-    roles:
-      - { role: nicolai86.ansible-deployment-facts }
-
-or if you've setup your roles dependencies properly:
-
     tasks:
       - action: deployment_facts
 
