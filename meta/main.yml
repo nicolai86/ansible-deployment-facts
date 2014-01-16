@@ -1,6 +1,7 @@
 ---
 galaxy_info:
   author: "Raphael Randschau"
+  description: "provides facts that help building deployments roles"
   license: MIT
   min_ansible_version: 1.4
   platforms:
